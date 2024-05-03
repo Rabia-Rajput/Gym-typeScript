@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { SelectedPage } from '@/shared/types';
 import Home from '@/scenes/Home/Home';
 import Benefits from '@/scenes/Benefits/benefits';
-import OurClasses from './scenes/ourClasses/OurClasses';
-import ContactUs from './scenes/contact/ContactUs';
+import OurClasses from '@/scenes/ourClasses/OurClasses';
+import ContactUs from '@/scenes/contact/ContactUs';
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
